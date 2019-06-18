@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.24429161693559076 0.9342199351687386 0.2599129058517725 1.6767793970968259
-  position 1.922259579280427 1.634006028540814 -0.37947835143738434
+  orientation -0.6650478245550326 -0.7400058777890871 -0.10051214798332064 0.40292898324059157
+  position -0.3389324466126279 0.5154055165807777 1.3875857808881553
 }
 TexturedBackground {
 }
@@ -12,7 +12,7 @@ TexturedBackgroundLight {
 Floor {
 }
 Solid {
-  translation 0 0.25 0
+  translation -0.03997467533380006 0.2500000000000002 -0.1647045055768479
   children [
     Shape {
       appearance PBRAppearance {
@@ -27,14 +27,14 @@ Solid {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -1245.907687182215
+        position -1247.0934346887086
         axis 0 1 0
         anchor 0 0.255 0
         staticFriction 0.2
       }
       endPoint Solid {
-        translation 0 0.255 0
-        rotation 0 -0.9999999999999999 0 1.8369963606569908
+        translation -0.043154337152984834 0.25496802264899976 0.006037756889179364
+        rotation -8.48913560277402e-07 0.9999999999986101 1.43495700198226e-06 3.1228948672322163
         children [
           Shape {
             appearance PBRAppearance {
@@ -49,6 +49,36 @@ Solid {
         ]
         physics Physics {
         }
+        linearVelocity 1.6739969744440192e-13 -1.2162241264946787e-07 -2.3277885905862923e-14
+        angularVelocity 7.326347385470463e-10 8.111188659011894e-23 5.236442474901115e-09
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 2746.371149696405
+        axis 0 0 1
+        anchor 0 0 0.055
+      }
+      endPoint Solid {
+        translation 0 0 0.055
+        rotation 0 0 -1 5.664014848253722
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.9372549019607843 0.1607843137254902 0.1607843137254902
+              roughness 1
+              metalness 0
+            }
+            geometry Box {
+              size 0.1 0.03 0.01
+            }
+          }
+        ]
+        name "solid(1)"
+        physics Physics {
+        }
+        linearVelocity 1.624088942506683e-18 2.416319548545364e-16 1.734723475976807e-16
+        angularVelocity 2.96439387504748e-323 8.89318162514244e-323 3.0946008968496197
       }
     }
   ]
