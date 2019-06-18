@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.9529818487221796 -0.3012076016254644 -0.03315986624056694 0.3508559395317319
-  position -0.33683212668518425 0.9350284342297914 2.364644706344073
+  orientation -0.6962305262205254 0.7035569222466851 0.14237524896365308 0.5192163566656849
+  position 0.877874610235889 1.300555113838683 1.6528530008821973
 }
 TexturedBackground {
 }
@@ -27,9 +27,13 @@ Solid {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
+        position -1245.907687182215
+        axis 0 1 0
+        anchor 0 0.255 0
       }
       endPoint Solid {
         translation 0 0.255 0
+        rotation 0 -0.9999999999999999 0 1.8369963606569908
         children [
           Shape {
             appearance PBRAppearance {
@@ -42,6 +46,10 @@ Solid {
             }
           }
         ]
+        physics Physics {
+        }
+        linearVelocity -3.95252516672997e-323 1.0800493412030032e-15 1.48219693752374e-323
+        angularVelocity 4.94065645841247e-323 -11.099448095482472 -1.67982319586024e-322
       }
     }
   ]
