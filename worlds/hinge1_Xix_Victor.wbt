@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.6650478245550326 -0.7400058777890871 -0.10051214798332064 0.40292898324059157
-  position -0.3389324466126279 0.5154055165807777 1.3875857808881553
+  orientation -0.9799584830645712 -0.1903047826412391 -0.0588681677450152 0.6115270097779496
+  position -0.1637970380676404 1.3360880711884746 1.524136924514699
 }
 TexturedBackground {
 }
@@ -27,14 +27,14 @@ Solid {
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position -1247.0934346887086
+        position -1293.8136755034952
         axis 0 1 0
         anchor 0 0.255 0
         staticFriction 0.2
       }
       endPoint Solid {
-        translation -0.043154337152984834 0.25496802264899976 0.006037756889179364
-        rotation -8.48913560277402e-07 0.9999999999986101 1.43495700198226e-06 3.1228948672322163
+        translation 0.03731470046731902 0.25496802264899976 -0.022502543242944338
+        rotation 8.238475927812883e-06 -0.9999999999620198 2.8439196665887133e-06 5.898234104462647
         children [
           Shape {
             appearance PBRAppearance {
@@ -49,19 +49,19 @@ Solid {
         ]
         physics Physics {
         }
-        linearVelocity 1.6739969744440192e-13 -1.2162241264946787e-07 -2.3277885905862923e-14
-        angularVelocity 7.326347385470463e-10 8.111188659011894e-23 5.236442474901115e-09
+        linearVelocity 0.06310225382682208 -5.544416693317916e-10 0.0841306710305986
+        angularVelocity 3.6456142846262605e-09 -2.382642677249315 -1.858316562833504e-08
       }
     }
     HingeJoint {
       jointParameters HingeJointParameters {
-        position 2746.371149696405
+        position 2825.097796512122
         axis 0 0 1
         anchor 0 0 0.055
       }
       endPoint Solid {
         translation 0 0 0.055
-        rotation 0 0 -1 5.664014848253722
+        rotation 0 0 -1 2.3355917186919832
         children [
           Shape {
             appearance PBRAppearance {
@@ -77,8 +77,8 @@ Solid {
         name "solid(1)"
         physics Physics {
         }
-        linearVelocity 1.624088942506683e-18 2.416319548545364e-16 1.734723475976807e-16
-        angularVelocity 2.96439387504748e-323 8.89318162514244e-323 3.0946008968496197
+        linearVelocity -5.060318857435774e-19 -2.699739200278999e-16 0
+        angularVelocity 0 0 3.0946008968496197
       }
     }
   ]
